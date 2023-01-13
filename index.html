@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icone.png" type="image/x-icon">
+    <title>Curriculo Online - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main id="tela_login">
+        <div id="login">
+
+            <figure>
+                <img src="images/icone.png" alt="logo">
+            </figure>
+
+            <h1>Logar</h1>
+
+            <form action="perfil.html" method="POST">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" required autofocus>
+                </div>
+
+                <br>
+
+                <div id="senha">
+
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <br>
+                    
+                    <div>
+                        <input type="submit" name="btn-enviar" id="btn-enviar" value="Enviar">
+                        <input type="reset" name="btn-limpar" id="btn-limpar" value="Limpar">
+                    </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
